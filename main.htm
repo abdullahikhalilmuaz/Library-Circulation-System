@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Title</title>
+  </head>
+  <body>
+    <input type="text" placeholder="Enter your task..." />
+    <button class="button">Add</button>
+    <div class="container"></div>
+    <script>
+      const itemList = [];
+      document.querySelector(".button").addEventListener("click", () => {
+        var container = document.querySelector(".container");
+        var input = document.querySelector("input").value;
+
+        itemList.push(input);
+        var text = "<ul>";
+        for (i = 0; i < itemList.length; i++) {
+          text +=
+            "<li>" +
+            itemList[i] +
+            "<button onclicl=" +
+            sometihing(i) +
+            ">x</button>" +
+            "</li>";
+
+          function sometihing(index) {
+            itemList.pop(index);
+            itemList.pop(index)
+              ? window.alert("item successfully removed")
+              : window.alert("item not removed, unfortunately!!!");
+          }
+        }
+        text += "</ul>";
+
+        container.innerHTML = text;
+      });
+    </script>
+  </body>
+</html>

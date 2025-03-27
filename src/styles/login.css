@@ -1,0 +1,49 @@
+.login-form {
+  width: 60%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(
+    to left,
+    rgba(243, 167, 26, 0.288),
+    rgba(231, 68, 79, 0.288)
+  );
+}
+
+.login-form form input {
+  width: 100%;
+  margin: 6px 0;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  background: rgb(255, 255, 255);
+}
+
+.login-form form button {
+  margin: 0px auto;
+}
+.login-form form input[type="submit"] {
+  background: linear-gradient(
+    to left,
+    rgba(243, 167, 26, 0.288),
+    rgba(231, 68, 79, 0.288)
+  );
+  color: white;
+}
+.login-form form input[type="submit"]:hover {
+  cursor: pointer;
+  background: linear-gradient(to left, rgb(243, 167, 26), rgb(231, 68, 79));
+}
+.login-form form input {
+  outline: none;
+}

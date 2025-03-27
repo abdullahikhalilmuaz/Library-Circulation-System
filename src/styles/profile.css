@@ -1,0 +1,26 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 35px;
+  margin: -0.7px 0 0 0;
+}
+
+.profile .head {
+  width: 40%;
+  height: 13px;
+  background-color: #073d47;
+  margin: 0px auto;
+  border-radius: 50%;
+}
+
+.profile .body {
+  width: 70%;
+  height: 13px;
+  background-color: #073d47;
+  margin: 1px auto;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}

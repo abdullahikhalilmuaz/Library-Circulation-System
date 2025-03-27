@@ -1,0 +1,22 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #073d47;
+}
+button {
+  padding: 8px 10px;
+  width: 130px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background: linear-gradient(to left, rgb(243, 167, 26), rgb(231, 68, 80));
+  cursor: pointer;
+}
